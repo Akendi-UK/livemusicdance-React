@@ -1,0 +1,28 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-button {
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  font-stretch: normal;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-livemusicdance_button-lostintime);
+}
+.component-button:hover {
+  background-color: var(--dl-color-livemusicdance_button-linhover);
+}
+
+@media(max-width: 479px) {
+  .component-button {
+    margin-left: 0%;
+  }
+  .component-root-class-name {
+    margin-left: 0%;
+  }
+}

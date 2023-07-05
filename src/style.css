@@ -1,0 +1,152 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-gray-black: #030323ff;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-eightunits: 128;
+  --dl-space-space-sevenunits: 112;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-livemusicdance-mercury: rgba(235, 235, 235, 1);
+  --dl-color-livemusicdance-partypink: rgba(238, 78, 235, 1);
+  --dl-color-livemusicdance_button-link: rgba(0, 75, 207, 1);
+  --dl-color-livemusicdance_menu-snhover: rgba(73, 132, 195, 1);
+  --dl-color-livemusicdance_button-linhover: rgba(222, 241, 255, 1);
+  --dl-color-livemusicdance_menu-sninactive: rgba(159, 159, 159, 1);
+  --dl-color-livemusicdance-mysteriousdepths: rgba(3, 3, 35, 1);
+  --dl-color-livemusicdance_menu-starrynight: rgba(43, 90, 146, 1);
+  --dl-color-livemusicdance_button-lostintime: rgba(163, 171, 189, 1);
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.MobileMessage {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Sligoil;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.MobileButton {
+  font-size: 15px;
+  font-style: normal;
+  font-family: Karla;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.MobileLink {
+  font-size: 15px;
+  font-style: normal;
+  font-family: Karla;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.DesktopButton {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Karla;
+  font-weight: 500px;
+  letter-spacing: 0.03rem;
+}
+.Content {
+  font-size: 19px;
+  font-family: Karla;
+  font-weight: 400;
+  line-height: 1.26;
+  text-transform: none;
+  text-decoration: none;
+}
+.DesktopText {
+  font-size: 19px;
+  font-style: normal;
+  font-family: Karla;
+  font-weight: 400px;
+  letter-spacing: 0.01rem;
+}
+.DesktopMessage {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Sligoil;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.DesktopLink {
+  font-size: 19px;
+  font-style: normal;
+  font-family: Karla;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.DesktopMenu {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Sligoil;
+  font-weight: 400px;
+}
+.MobileText {
+  font-size: 17px;
+  font-style: normal;
+  font-family: Karla;
+  font-weight: 400px;
+}
